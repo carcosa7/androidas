@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lab"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pavadinimasTextView"
+        android:layout_width="wrap_content"
+
+        android:layout_height="30dp"
+        android:text="Pavadinimas"
+        android:textColorLink="#FFFFFF"
+        android:textSize="24sp"/>
+
+    <!-- pirma eilute, todel atitraukiu toliau, kad issiskyrtu-->
+    <TextView
+        android:id="@+id/kategorijaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+
+        android:text="Kategorija"
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/perziureta"
+        android:layout_width="wrap_content"
+
+        android:layout_height="30dp"
+        android:text=""
+        android:textColorLink="#FFFFFF"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/uzrasaiListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- android:layout_height="400dp" matosi tik puseje ekrano-->
+</LinearLayout>
